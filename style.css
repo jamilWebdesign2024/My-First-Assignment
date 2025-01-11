@@ -104,7 +104,7 @@ body{
 }
 .advance-bangladesh{
     margin-top: 80px;
-    margin-left: 160px;
+    margin-left: 350px;
     align-items: center;
     justify-content: center;
 }
@@ -197,4 +197,30 @@ body{
     color: rgba(14, 14, 14, 0.8);
     font-weight: 600;
     margin-bottom: 5px;
+}
+td select{
+    padding: 10px;
+    background-color: #09A15C;
+}
+.your-opinion-matters{
+    width: 1200px;
+    margin: 80px auto;
+}
+.table-title{
+    padding: 30px;
+    width: 100%;
+}
+.table-title th{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 24px 24px 24px 24px;
+    color: #0E0E0E;
+    font-size: 20px;
+    /* width: 100%; */
+}
+.table-title td, .table-title th{
+    border: 1px solid gray;
+    padding: 10px;
 }
