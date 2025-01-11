@@ -180,7 +180,7 @@ body{
     margin: 0 auto;
     box-shadow: 1px 1px 5px rgba(208, 208, 208, 0.469);
     border-radius: 10px;
-    height: 390px;
+    height: 400px;
     
 }
 .minister-intro{
@@ -192,6 +192,9 @@ body{
     background-size: 70px;
     background-position-x: 25px;
     background-position-y: 20px;
+}
+.dr-bio{
+    line-height: 20px;
 }
 .name{
     font-size: 25px;
