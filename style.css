@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 .div-width{
-    width: 1100px;
+    width: 1200px;
     height: auto;
 }
 .navbar{
@@ -68,24 +68,24 @@ body{
 .one{
     background-color: #006A50;
     color: white;
+    border: none;
 }
 .one:hover{
     background-color: white;
     color: #006A50;
+    border: 1px solid #006A50;
 }
 .advance-step{
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 100%;
-   margin: 0 auto;
    gap: 20px;
 }
 .step{
     box-shadow: 1px 1px 5px rgba(201, 201, 201, 0.366);
     border-radius: 10px;
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 270px;
     border: 1px solid rgba(128, 128, 128, 0.162);
     margin-top: 32px;
     padding: 20px;
@@ -99,5 +99,102 @@ body{
 .paragraph-title{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
-    margin-bottom: 20px;
+    margin: 12px 10px 20px 0;
+    text-align: justify;
+}
+.advance-bangladesh{
+    margin-top: 80px;
+    margin-left: 160px;
+    align-items: center;
+    justify-content: center;
+}
+.h2-title{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: bold;
+}
+.vision{
+    width: 1200px;
+    margin: 80px auto;
+}
+.card-box{
+    display: flex;
+    gap: 25px;
+    margin-top: 32px;
+}
+.card{
+   width: 400px; 
+   height: 280px;
+   background-color: rgba(84, 144, 245, 0.2);
+   border-radius: 16px;
+   padding: 20px;
+}
+.learn-more{
+   margin-top: 20px; 
+}
+.first{
+    background-color: rgba(6, 99, 255, 1);
+    color: white;
+    border: none;
+}
+.first:hover{
+    background-color: orange;
+    color: rgb(93, 3, 149);
+}
+.second{
+    margin-top: 40px;
+    background-color:#09A15C ;
+    color: white;
+    border: none;
+}
+.second:hover{
+    background-color: cornflowerblue;
+    color: navy;
+}
+.third{
+    background-color: rgb(139, 5, 63);
+    color: white;
+    border: none;
+}
+.third:hover{
+    background-color: sandybrown;
+    color: rgb(71, 21, 158);
+}
+.paragraph{
+    margin: 24px 0 32px 0;
+    line-height: 25px;
+}
+.background-color-01{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.background-color-02{
+    background-color: rgba(198, 228, 214, 1);
+}
+.background-color-03{
+    background-color: rgba(247, 235, 207, 1)
+}
+.prime-minister-desk{
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(208, 208, 208, 0.875);
+    border-radius: 10px;
+    border: 1px solid rgba(216, 216, 216, 0.576);
+    height: 390px;
+    
+}
+.minister-intro{
+    padding: 30px;
+    display: block;
+    align-items: center;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position-x: 25px;
+    background-position-y: 20px;
+}
+.name{
+    font-size: 25px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+    margin-bottom: 5px;
 }
